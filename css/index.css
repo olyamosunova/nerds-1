@@ -1,0 +1,111 @@
+ /*Обнуление*/
+
+
+
+
+
+
+
+
+
+
+  /* Цвета */
+
+	:root {
+	    --color-grey: #EEEEEE;
+	    --color-white: #fff;
+	    --color-black:#000000;
+	    --color-pink: #FB565A;
+	    --color-green: #00CA74;
+	    --color-yellow:#EFC849;
+
+	}
+
+
+
+
+
+
+
+/* Шапка главной страницы  */
+
+a{
+	text-decoration: none;
+}
+h1{
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+}
+.header-nav{
+text-decoration: none;
+	color: var(--color-black);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background: var(--color-grey);
+}
+.header-nav a{
+	color: var(--color-black);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.color-header { 
+	background: var(--color-grey)
+ }
+
+
+	
+
+/* Основная информация страницы */
+
+
+
+
+.page-main {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-page {
+
+}
+
+.main-p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.button {}
+
+.button-red {}
+
+.button-green {}
+
+.button-yellow {}
+
+.title-p {}
+
+.title-list {}
+
+.main-li {}
+
+.weight-p {}
+
+/* Подвал */
+
+.footer-size {
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-numbers { 
+	
+ }
+
+.size-min {}
+
+.number {}
