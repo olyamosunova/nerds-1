@@ -1,0 +1,166 @@
+ /*Обнуление*/
+
+
+
+
+
+
+
+
+
+
+  /* Цвета */
+
+ :root {
+	    --color-grey: #EEEEEE;
+	    --color-grey-dark: #666666;
+	    --color-white: #fff;
+	    --color-black:#000000;
+	    --color-pink: #FB565A;
+	    --color-green: #00CA74;
+	    --color-yellow:#EFC849;
+
+	}
+ 
+ body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+
+ a{
+ 	text-decoration: none;
+ }
+/* Шапка */
+ .main-header { 
+ 	background: var(--color-grey);
+  }
+
+.main-navigation {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.header { 
+	background: var(--color-grey);
+ }
+
+.main-title {
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+/* Основной контент */
+
+.button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	background:var(--color-pink) ;
+	color: var(--color-white);
+	text-transform: uppercase;
+}
+
+.title-illustration { 
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+ }
+
+.color-аpplications {
+	background:var(--color-green)
+}
+
+.color-presentation {
+	background:var(--color-yellow)
+}
+
+.secondly-title {
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 45px;
+
+}
+
+.orders {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.title-statistics {
+	font-weight: bold;
+}
+
+.statistics {
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 64px;
+}
+
+/* Подвал  */
+
+.contacts-title {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.p-contacts {
+	color: var(--color-grey-dark);
+}
+
+.footer-title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.p-footer {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+/* catalog */
+
+.slide-button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	background:var(--color-grey);
+	color:var(--black);
+}
+
+.slide-number {}
+.clide-check{
+	background: var(--color-white);
+}
+
+.title-settings {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+}
+.filters {
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--color-grey-dark);
+}
+.filters-check {
+	color: var(--color-black);
+}
+.title-element{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+}
+.text-element {
+	line-height: 18px;
+}
+.settings-elements {
+	line-height: 19px;
+}
