@@ -4,11 +4,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>catalog</title>
-		<link rel="stylesheet" type="text/css" href="\css\catalog.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
-		<header>
-				<nav>
+		<header class="main-header">
+				<nav class="main-navigation">
 					<img src="#" alt="Логотип компании">
 					<ul>
 						<li>
@@ -26,24 +26,26 @@
 					</ul>
 					<p><a href="#"> корзина</a></p>
 				</nav>
-			<h1>Магазин готовых шаблонов</h1>
+			<h1 class="main-title">Магазин готовых шаблонов</h1>
 		</header>
 		<main>
 		<section>
-			<p>Сортировать:</p>
+			<p class="title-settings">Сортировать:</p>
 				<nav>		
 					<ul>
-						<li>По цене</li>
-						<li>По типу</li>
-						<li>По названию</li>
+						<li class="filters filters-check">По цене</li>
+						<li class="filters">По типу</li>
+						<li class="filters">По названию</li>
 					</ul>
 				</nav>	
 		<div>
-			<a href="#"><img src="#" alt="Картинка сайта"></a>
-         <p>Sedona</p>
-         <p>Штформационный сайт<br>
-         для туристов</p>
-         <a href="#">9 900 ₽</a>
+			<div>
+				<a href="#"><img src="#" alt="Картинка сайта"></a>
+	         <p class="title-element">Sedona</p>
+	         <p class="text-element">Штформационный сайт<br>
+	         для туристов</p>
+         </div>
+         <a class="button" href="#">9 900 ₽</a>
 			<a href="#"><img src="#" alt="Картинка сайта"></a>
          <a href="#"><img src="#" alt="Картинка сайта"></a>
 			<a href="#"><img src="#" alt="Картинка сайта"></a>
@@ -52,47 +54,46 @@
 		</div>
 		<div>
 			<ul>
-				<li><a>1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">Седующая</a></li>
+				<li><a class="slide-button slide-number clide-check">1</a></li>
+				<li><a class="slide-button slide-number" href="#">2</a></li>
+				<li><a class="slide-button slide-number" href="#">3</a></li>
+				<li><a class="slide-button" href="#">Седующая</a></li>
 			</ul>
 		</div>
 		</section>
 		<section>
-			<div>
+			<form>
+				<p class="title-settings">Стоимость:</p>
 				<fieldset>
-					<div>
-						<p>Стоимость:</p>
 						<!-- Не проходил ещё -->
-						<legend>Сетка:</legend>
+						<legend class="title-settings">Сетка:</legend>
 						<label><input type="radio" name="setka1" value="Adaptive">Адаптивная</label>
 						<label><input type="radio" name="setka2" value="Fixed">Фиксированная</label>
 						<label><input type="radio" name="setka3" value="Rubber"> Резиновая</label>
-					</div>
-					<div>
-						<legend>Особенности:</legend>
+					
+				</fieldset>
+				<fieldset>
+						<legend class="title-settings">Особенности:</legend>
 						<label><input checked type="checkbox" name="peculiarities1" value="yes">Слайдер</label>
 						<label><input type="checkbox" name="peculiarities2" value="yes">Блок преимуществ</label>
 						<label><input checked type="checkbox" name="peculiarities3" value="yes">Новости</label>
 						<label><input type="checkbox" name="peculiarities4" value="yes">Галерея</label>
 						<label><input  type="checkbox" name="peculiarities5" value="yes">Корзина</label>
-				   </div>
-			   <button type="button">Показать</button>
 				</fieldset>
-			</div>
+				<button  class="slide-button" type="#">Показать</button>
+			</form>
 		</section>
 	   </main>
 	   <footer>
 			<div>
 			  <h2>Карта</h2>
-			  <p>Nerds design studio</p>
-			  <p>191186, Санкт-Петербург,<br>
+			  <p class="contacts-title">Nerds design studio</p>
+			  <p class="p-contacts">191186, Санкт-Петербург,<br>
 			  ул. Б.Конюшенная,д. 19/8</p>
-			  <a href="tel:78122757575">тел. +7 (812) 275-75-75</a>
-			  <button>Напишите нам</button>
+			  <a class="p-contacts" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+			  <button class="button" >Напишите нам</button>
 			  <!-- Здесь будет карта -->
-			  <button type="button">Закрыть</button>
+			  <button class="button" type="#">Закрыть</button>
 			</div>
 			<div>
 				<ul>
@@ -108,8 +109,8 @@
             </ul>
          </div>
          <div>  
-            <p>Давайте дружить, это выгодно!</p>
-            <p>Скидка 10% для друзей из социальных сетей.</p>
+            <p class="footer-title">Давайте дружить, это выгодно!</p>
+            <p class="p-footer"> Скидка 10% для друзей из социальных сетей.</p>
 			</div>
 		</footer>
 	</body>
