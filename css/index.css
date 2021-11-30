@@ -33,7 +33,9 @@
  a{
  	text-decoration: none;
  }
+
 /* Шапка */
+
  .main-header { 
  	background: var(--color-grey);
   }
@@ -125,7 +127,7 @@
 	line-height: 22px;
 }
 
-/* catalog */
+/* catalog  */
 
 .slide-button {
 	font-weight: 500;
@@ -135,7 +137,10 @@
 	color:var(--black);
 }
 
-.slide-number {}
+.slide-number {
+	
+}
+
 .clide-check{
 	background: var(--color-white);
 }
@@ -145,22 +150,27 @@
 	font-size: 18px;
 	line-height: 30px;
 }
+
 .filters {
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--color-grey-dark);
 }
+
 .filters-check {
 	color: var(--color-black);
 }
+
 .title-element{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 30px;
 }
+
 .text-element {
 	line-height: 18px;
 }
+
 .settings-elements {
 	line-height: 19px;
 }
