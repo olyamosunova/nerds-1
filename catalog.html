@@ -30,7 +30,8 @@
 		</header>
 		<main>
 		<section>
-			<p class="title-settings">Сортировать:</p>
+			<div class="sort"></div>
+			<p class="sort-title filter-title">Сортировать:</p>
 				<nav>		
 					<ul>
 						<li class="filters filters-check">По цене</li>
@@ -38,13 +39,18 @@
 						<li class="filters">По названию</li>
 					</ul>
 				</nav>	
+			</div>
 		<div>
 			<div>
-				<a href="#"><img src="img/img-sedona 1.jpg" width="359" height="578" alt="Макет сайта Sedona"></a>
-	         <p class="title-element">Sedona</p>
-	         <p class="text-element">Штформационный сайт<br>
-	         для туристов</p>
-         </div>
+				<ul>
+					<li>
+						<a href="#"><img src="img/img-sedona 1.jpg" width="359" height="578" alt="Макет сайта Sedona"></a>
+						<p class="title-element">Sedona</p>
+						<p class="text-element">Информационный сайт<br>
+						для туристов</p>
+					</li>
+				</ul>
+            </div>
          <a class="button" href="#">9 900 ₽</a>
 			<a href="#"><img src="img/img-pink 1.jpg" width="358" height="578" alt="Макет сайта pink"></a>
          <a href="#"><img src="img/img-barbershop 1.jpg" width="358" height="578" alt="Макет сайта barbershop"></a>
@@ -53,11 +59,11 @@
 			<a href="#"><img src="img/img-kvast 1.jpg" width="359" height="578" alt="Макет сайта kvast"></a>
 		</div>
 		<div>
-			<ul>
-				<li><a class="slide-button slide-number clide-check">1</a></li>
-				<li><a class="slide-button slide-number" href="#">2</a></li>
-				<li><a class="slide-button slide-number" href="#">3</a></li>
-				<li><a class="slide-button" href="#">Седующая</a></li>
+			<ul class="pagination">
+				<li><a class="pagination__item slide-number clide-check button">1</a></li>
+				<li><a class="pagination__item slide-number button" href="#">2</a></li>
+				<li><a class="pagination__item slide-number button" href="#">3</a></li>
+				<li><a class="pagination__item pagination-item--next" href="#">Седующая</a></li>
 			</ul>
 		</div>
 		</section>
@@ -68,9 +74,9 @@
 					<fieldset>
 							<!-- Не проходил ещё -->
 							<legend class="title-settings">Сетка:</legend>
-							<label><input type="radio" name="setka1" value="Adaptive">Адаптивная</label>
-							<label><input type="radio" name="setka2" value="Fixed">Фиксированная</label>
-							<label><input type="radio" name="setka3" value="Rubber"> Резиновая</label>						
+							<label><input type="grid" name="setka1" value="Adaptive">Адаптивная</label>
+							<label><input type="grid" name="setka2" value="Fixed">Фиксированная</label>
+							<label><input type="grid" name="setka3" value="Rubber"> Резиновая</label>						
 					</fieldset>
 					<fieldset>
 							<legend class="title-settings">Особенности:</legend>

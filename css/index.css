@@ -36,6 +36,11 @@
 
 /* Шапка */
 
+ .main-slider {
+	background: var(--color-grey);
+ }
+ 
+
  .main-header { 
  	background: var(--color-grey);
   }
@@ -73,11 +78,11 @@
 	line-height: 30px;
  }
 
-.color-аpplications {
+.color-green {
 	background:var(--color-green)
 }
 
-.color-presentation {
+.color-yellow {
 	background:var(--color-yellow)
 }
 
@@ -98,11 +103,17 @@
 	font-weight: bold;
 }
 
-.statistics {
+.statistics-item {
 	font-weight: bold;
 	font-size: 45px;
 	line-height: 64px;
 }
+.statistics-value {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+}
+ 
 
 /* Подвал  */
 
@@ -129,7 +140,7 @@
 
 /* catalog  */
 
-.slide-button {
+.pagination {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 18px;
@@ -137,7 +148,7 @@
 	color:var(--black);
 }
 
-.slide-number {
+.pagination__item {
 	
 }
 
@@ -145,7 +156,7 @@
 	background: var(--color-white);
 }
 
-.title-settings {
+.sort-title {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 30px;
@@ -174,3 +185,7 @@
 .settings-elements {
 	line-height: 19px;
 }
+.pagination {
+
+}
+
