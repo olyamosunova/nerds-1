@@ -35,21 +35,43 @@
  }
 
 /* Шапка */
+.container {
+	width: 1157px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
 
  .main-slider {
-	background: var(--color-grey);
+	display: grid;
+	grid-template-columns: 1fr 2fr;
  }
+ .bacground-main-header {
+ 	background: var(--color-grey);
+}
+ 
+
  
 
  .main-header { 
  	background: var(--color-grey);
+
+  }
+  .user-navigation {
+	display: grid;
   }
 
-.main-navigation {
+
+.main-navigation-wrapper {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
+	width: 1157px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
+
 
 .header { 
 	background: var(--color-grey);
@@ -185,7 +207,38 @@
 .settings-elements {
 	line-height: 19px;
 }
-.pagination {
 
+
+/* Стилизация, grids */
+  
+.page {
+	height: 100%;
 }
 
+.page-body{
+	min-height:100%;
+}
+
+.grid-main-cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 100px;
+}
+.main-info-statistics{
+	display: grid;
+	grid-template-columns: 1fr 360px;
+	grid-gap: 109px;
+}
+.statistics {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.logo-companys {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 93px;
+}
+.grid-footer-info {
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
