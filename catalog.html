@@ -8,8 +8,9 @@
 	</head>
 	<body>
 		<header class="main-header">
-				<nav class="main-navigation">
-					<img src="#" alt="Логотип компании">
+			<div class="container">
+				<nav class="main-navigation-catalog">
+					<img src="img/nerds-logo.svg" alt="Логотип компании">
 					<ul>
 						<li>
 							<a href="#">Студия</a>
@@ -27,98 +28,100 @@
 					<p><a href="#"> корзина</a></p>
 				</nav>
 			<h1 class="main-title">Магазин готовых шаблонов</h1>
+			</div>
 		</header>
-		<main>
-		<section>
-			<div class="sort"></div>
-			<p class="sort-title filter-title">Сортировать:</p>
-				<nav>		
-					<ul>
-						<li class="filters filters-check">По цене</li>
-						<li class="filters">По типу</li>
-						<li class="filters">По названию</li>
+		<main class="main-catalog container">
+			<section class="main-list-catalog">
+				<p class="sort-title filter-title">Сортировать:</p>
+					<nav>		
+						<ul>
+							<li class="filters filters-check">По цене</li>
+							<li class="filters">По типу</li>
+							<li class="filters">По названию</li>
+						</ul>
+					</nav>	
+			<div>
+				<div>
+					<div class="catalog-item">
+						<ul class="item-sedona" >
+							<li>
+								<a href="#"><img src="img/img-sedona 1.jpg" width="359" height="578" alt="Макет сайта Sedona"></a>
+								<p class="title-element">Sedona</p>
+								<p class="text-element">Информационный сайт<br>
+								для туристов</p>
+								<a class="button" href="#">9 900 ₽</a>
+							</li>
+						</ul>
+					</div>
+					<a href="#"><img src="img/img-pink 1.jpg" width="358" height="578" alt="Макет сайта pink"></a>
+					<a href="#"><img src="img/img-barbershop 1.jpg" width="358" height="578" alt="Макет сайта barbershop"></a>
+					<a href="#"><img src="img/img-mishka 1.jpg" width="359" height="578" alt="Макет сайта mishka"></a>
+					<a href="#"><img src="img/img-aplus 1.jpg" width="358" height="578" alt="Макет сайта aplus"></a>
+					<a href="#"><img src="img/img-kvast 1.jpg" width="359" height="578" alt="Макет сайта kvast"></a>
+			    </div>
+			</div>	
+					<ul class="pagination">
+						<li><a class="pagination__item slide-number clide-check button">1</a></li>
+						<li><a class="pagination__item slide-number button" href="#">2</a></li>
+						<li><a class="pagination__item slide-number button" href="#">3</a></li>
+						<li><a class="pagination__item pagination-item--next" href="#">Седующая</a></li>
 					</ul>
-				</nav>	
-			</div>
-		<div>
-			<div>
-				<ul>
-					<li>
-						<a href="#"><img src="img/img-sedona 1.jpg" width="359" height="578" alt="Макет сайта Sedona"></a>
-						<p class="title-element">Sedona</p>
-						<p class="text-element">Информационный сайт<br>
-						для туристов</p>
-					</li>
-				</ul>
-            </div>
-         <a class="button" href="#">9 900 ₽</a>
-			<a href="#"><img src="img/img-pink 1.jpg" width="358" height="578" alt="Макет сайта pink"></a>
-         <a href="#"><img src="img/img-barbershop 1.jpg" width="358" height="578" alt="Макет сайта barbershop"></a>
-			<a href="#"><img src="img/img-mishka 1.jpg" width="359" height="578" alt="Макет сайта mishka"></a>
-			<a href="#"><img src="img/img-aplus 1.jpg" width="358" height="578" alt="Макет сайта aplus"></a>
-			<a href="#"><img src="img/img-kvast 1.jpg" width="359" height="578" alt="Макет сайта kvast"></a>
-		</div>
-		<div>
-			<ul class="pagination">
-				<li><a class="pagination__item slide-number clide-check button">1</a></li>
-				<li><a class="pagination__item slide-number button" href="#">2</a></li>
-				<li><a class="pagination__item slide-number button" href="#">3</a></li>
-				<li><a class="pagination__item pagination-item--next" href="#">Седующая</a></li>
-			</ul>
-		</div>
-		</section>
-		<aside>
-			<section>
-				<form>
-					<p class="title-settings">Стоимость:</p>
-					<fieldset>
-							<!-- Не проходил ещё -->
-							<legend class="title-settings">Сетка:</legend>
-							<label><input type="grid" name="setka1" value="Adaptive">Адаптивная</label>
-							<label><input type="grid" name="setka2" value="Fixed">Фиксированная</label>
-							<label><input type="grid" name="setka3" value="Rubber"> Резиновая</label>						
-					</fieldset>
-					<fieldset>
-							<legend class="title-settings">Особенности:</legend>
-							<label><input checked type="checkbox" name="peculiarities1" value="yes">Слайдер</label>
-							<label><input type="checkbox" name="peculiarities2" value="yes">Блок преимуществ</label>
-							<label><input checked type="checkbox" name="peculiarities3" value="yes">Новости</label>
-							<label><input type="checkbox" name="peculiarities4" value="yes">Галерея</label>
-							<label><input  type="checkbox" name="peculiarities5" value="yes">Корзина</label>
-					</fieldset>
-					<button  class="slide-button" type="#">Показать</button>
-				</form>
+
 			</section>
-		</aside>
+			<aside class="filter-catalog">
+				<section>
+					<form>
+						<p class="title-settings">Стоимость:</p>
+						<fieldset>
+								<!-- Не проходил ещё -->
+								<legend class="title-settings">Сетка:</legend>
+								<label><input type="grid" name="setka1" value="Adaptive">Адаптивная</label>
+								<label><input type="grid" name="setka2" value="Fixed">Фиксированная</label>
+								<label><input type="grid" name="setka3" value="Rubber"> Резиновая</label>						
+						</fieldset>
+						<fieldset>
+								<legend class="title-settings">Особенности:</legend>
+								<label><input checked type="checkbox" name="peculiarities1" value="yes">Слайдер</label>
+								<label><input type="checkbox" name="peculiarities2" value="yes">Блок преимуществ</label>
+								<label><input checked type="checkbox" name="peculiarities3" value="yes">Новости</label>
+								<label><input type="checkbox" name="peculiarities4" value="yes">Галерея</label>
+								<label><input  type="checkbox" name="peculiarities5" value="yes">Корзина</label>
+						</fieldset>
+						<button  class="slide-button" type="#">Показать</button>
+					</form>
+				</section>
+			</aside>
 	   </main>
-	   <footer>
-			<div>
-			  <h2>Карта</h2>
-			  <p class="contacts-title">Nerds design studio</p>
-			  <p class="p-contacts">191186, Санкт-Петербург,<br>
-			  ул. Б.Конюшенная,д. 19/8</p>
-			  <a class="p-contacts" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
-			  <button class="button" >Напишите нам</button>
-			  <!-- Здесь будет карта -->
-			  <button class="button" type="#">Закрыть</button>
-			</div>
-			<div>
-				<ul>
-			      <li>
-			        <a href="#">Вконтакте</a>
-			      </li>
-			      <li>
-			        <a href="#">Фейсбук</a>
-			      </li>
-			      <li>
-			        <a href="#">Инстаграм</a>
-			      </li>
-            </ul>
-         </div>
-         <div>  
-            <p class="footer-title">Давайте дружить, это выгодно!</p>
-            <p class="p-footer"> Скидка 10% для друзей из социальных сетей.</p>
-			</div>
-		</footer>
+	   <footer class="container">
+		<div>
+			<h2>Карта</h2>
+			<p class="contacts-title">Nerds design studio</p>
+			<p class="p-contacts">191186, Санкт-Петербург,<br>
+			ул. Б.Конюшенная,д. 19/8</p>
+			<a class="p-contacts" href="tel:78122757575">тел. +7 (812) 275-75-75</a>
+			<button class="button" >Напишите нам</button>
+			<!-- Здесь будет карта -->
+			<button class="button" type="#">Закрыть</button>
+		</div>
+	<div class="grid-footer-info">
+		<div>
+			<ul>
+			  <li>
+				<a href="img/icons/vk.svg">Вконтакте</a>
+			  </li>
+			  <li>
+				<a href="img/icons/facebook.svg">Фейсбук</a>
+			  </li>
+			  <li>
+				<a href="img/icons/instagram.svg">Инстаграм</a>
+				 </li>
+			</ul>
+		 </div>
+		 <div>  
+		<p class="footer-title">Давайте дружить, это выгодно!</p>
+		<p class="p-footer"> Скидка 10% для друзей из социальных сетей.</p>
+		</div>
+	</div>
+	</footer>
 	</body>
 </html>

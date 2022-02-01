@@ -14,11 +14,18 @@
  :root {
 	    --color-grey: #EEEEEE;
 	    --color-grey-dark: #666666;
+		--color-click-grey: #D5D5D5;
 	    --color-white: #fff;
 	    --color-black:#000000;
 	    --color-pink: #FB565A;
+		--color-dark-pink: #E74246;
+		--color-click-pink: #D7373B ;
 	    --color-green: #00CA74;
-	    --color-yellow:#EFC849;
+		--color-dark-green: #00BC6C;
+		--color-click-green: #00AA62;
+	    --color-yellow: #EFC849;
+		--color-dark-yellow: #EAB534;
+		--color-click-yellow: #E5A722;
 
 	}
  
@@ -48,12 +55,20 @@
  .bacground-main-header {
  	background: var(--color-grey);
 }
- 
+.main-novigation li {
+	display: inline;
+}
+.main-navigation-catalog {
+	display: flex;
+	justify-content: space-between;
+} 
 
- 
 
  .main-header { 
- 	background: var(--color-grey);
+	display: flex;
+	flex-direction: column;
+	background: var(--color-grey);
+	 
 
   }
   .user-navigation {
@@ -86,6 +101,8 @@
 /* Основной контент */
 
 .button {
+	padding: 15px 40px 15px 40px;
+	border-radius: 3px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 18px;
@@ -183,6 +200,44 @@
 	font-size: 18px;
 	line-height: 30px;
 }
+.main-catalog {
+	display: flex;
+	justify-content: space-between;
+
+}
+.main-list-catalog {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 55px;
+	width: 760px;
+	order: 1;
+	list-style: none;
+}
+.catalog-item {
+	width: 360px;
+	min-height: 578px;
+	margin-right: 40px;
+	margin-bottom: 31px;
+
+}
+.catalog-item:nth-child(2n) {
+	margin-right: 0;
+}
+
+.filter-catalog {
+	width: 260px;
+}
+.item-sedona{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.item-sedona li {
+	list-style: none;
+
+}
 
 .filters {
 	font-size: 14px;
@@ -223,6 +278,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 100px;
+	list-style: none;
 }
 .main-info-statistics{
 	display: grid;
@@ -232,6 +288,7 @@
 .statistics {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	list-style: none;
 }
 .logo-companys {
 	display: grid;
@@ -242,3 +299,6 @@
 	display: grid;
 	grid-template-columns: 1fr auto;
 }
+
+
+
